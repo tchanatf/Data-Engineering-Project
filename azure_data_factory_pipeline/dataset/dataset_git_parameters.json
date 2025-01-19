@@ -1,0 +1,33 @@
+{
+	"name": "dataset_git_parameters",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "storagedatalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "git.json",
+				"fileSystem": "config-file-parameters"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"param_url_relative": {
+					"type": "string"
+				},
+				"param_recepteur_dossier": {
+					"type": "string"
+				},
+				"param_recepteur_fichier": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

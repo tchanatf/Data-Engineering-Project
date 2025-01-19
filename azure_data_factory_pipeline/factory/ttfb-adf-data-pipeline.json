@@ -1,0 +1,9 @@
+{
+	"name": "ttfb-adf-data-pipeline",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6d19e12d-233b-4a2f-a60e-46e2bf63e7fa",
+		"tenantId": "0b91dc24-8bca-41ce-9609-8f56e161e15d"
+	}
+}
